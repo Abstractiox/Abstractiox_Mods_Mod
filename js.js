@@ -1,9 +1,6 @@
-function goto1() {
-    location.replace("https://abstractiox.github.io/Abstractiox_Mods/")
-}
 
 function goto2() {
-    location.replace("https://abstractiox.github.io/Abstractiox_Mods/")
+    location.replace("https://abstractiox.github.io/Abstractiox_Mods/index.html")
 }
 
 function Graphics_Card_OverclockerDownload() {
