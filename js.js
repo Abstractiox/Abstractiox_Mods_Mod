@@ -1,20 +1,10 @@
 
 function goto2() {
-    location.href = "https://abstractiox.github.io/Abstractiox_Mods/";
+    location.replace= "https://abstractiox.github.io/Abstractiox_Mods/";
 }
 
 function Graphics_Card_OverclockerDownload() {
     location.replace("/ModWebstite_Abstractiox/index.html")
-}
-function goto2() {
-    location.replace("/ModWebstite_Abstractiox/index.html")
-}
-function goto2() {
-    location.replace("/ModWebstite_Abstractiox/index.html")
-}
-function goto2() {
-    location.replace("/ModWebstite_Abstractiox/index.html")
-}
 
 
 
