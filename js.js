@@ -1,6 +1,6 @@
 
 function goto2() {
-    location.replace("https://abstractiox.github.io/Abstractiox_Mods/index.html")
+    location.href = "https://abstractiox.github.io/Abstractiox_Mods/index.html";
 }
 
 function Graphics_Card_OverclockerDownload() {
