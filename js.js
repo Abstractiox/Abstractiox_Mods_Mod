@@ -3,7 +3,7 @@ function goto1() {
 }
 
 function goto2() {
-    location.replace("/ModWebstite_Abstractiox/index.html")
+    location.replace("https://abstractiox.github.io/Abstractiox_Mods/")
 }
 
 function Graphics_Card_OverclockerDownload() {
