@@ -6,5 +6,4 @@ function goto12() {
 function Mod1Download() {
     location.replace("#")
 
-
-
+}
