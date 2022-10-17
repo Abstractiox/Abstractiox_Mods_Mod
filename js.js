@@ -1,6 +1,6 @@
 
 function goto12() {
-    location.replace= "https://abstractiox.github.io/Abstractiox_Mods/";
+    location.replace= "https://www.roblox.com";
 }
 
 function Graphics_Card_OverclockerDownload() {
