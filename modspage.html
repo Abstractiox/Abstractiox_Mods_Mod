@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+    <script src="/ModWebstite_Abstractiox/js.js"></script>
+    <link rel="stylesheet" href="/ModWebstite_Abstractiox/styles.css">
+    <head>
+        <center>
+            <title>Abstractiox Mods - Home</title>
+            <h1 class="Main-Header"><span>Abstractiox</span></h1>
+        </center>
+    </head>
+    <body>
+        <div class="fontedPs">
+            <center>
+                <p>
+               Welcome to Abstractiox! Home of the Abstractiox Mods. If you need help, click the button below me that says "HELP".
+    
+               
+                <br>
+                </p>
+                <br>
+                <div class="container">
+                    <button class="Mods" onclick="goto2()">BACK</button>
+                    <button class="About">ABOUT</button>
+                    <button class="Help">HELP</button>
+                </div>
+                <br>
+                <br>
+
+                <div class="container1">
+                    <p class="d22">[Announcement Placeholder]<br>
+                        Note that this are mods only made using Mcreator. None of these are complex unlike other mods. If you need complex mods, visit Curseforge
+
+
+                    </p>
+                </div>
+                <div class="fonter">
+                
+
+                 <button class="collapsible">Graphics_Card_Overclocker</button>
+            <div class="content">
+            <p class="dropps">
+                Graphics_Card_Overclocker is not what you think, this does not Overclock your GPU. Its just a mod that has GPUs.
+                <br>
+                Version: v1.0.0
+                <br>
+
+                <br>
+                <br>
+                Requirements: <br>
+                Forge version: 40.1.84 <br>
+                Minecraft Version: 1.18.2 <br>
+                Download Method: Mediafire <br>
+                Minecraft Type: Java Edition                
+                <br>
+                 <br>
+            <button class="DownloadModsbtn" onclick="Graphics_Card_OverclockerDownload()">Download</button>
+            </p>
+            </div>
+            <button class="collapsible">---</button>
+            <div class="content">
+            <p class="dropps">
+                -
+                <br>
+                Version: ???
+                <br>
+
+                <br>
+                <br>
+                Requirements: <br>
+                Forge version: ??? <br>
+                Minecraft Version: ??? <br>
+                Download Method: ??? <br>
+                Minecraft Type: ???                
+                <br>
+                 <br>
+            <button class="DownloadModsbtn">Download</button>
+            </p>
+            </div>
+
+
+</div>
+
+            </center>
+        </div>
+    </body>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script>
+        var coll = document.getElementsByClassName("collapsible");
+        var i;
+        
+        for (i = 0; i < coll.length; i++) {
+          coll[i].addEventListener("click", function() {
+            this.classList.toggle("active");
+            var content = this.nextElementSibling;
+            if (content.style.maxHeight){
+              content.style.maxHeight = null;
+            } else {
+              content.style.maxHeight = content.scrollHeight + "px";
+            } 
+          });
+        }
+        </script>
+</html>
